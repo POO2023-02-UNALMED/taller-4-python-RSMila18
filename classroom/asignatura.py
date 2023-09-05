@@ -8,6 +8,6 @@ class Asignatura:
     #   pass
 
     def __str__(self):
-        view = self._nombre + '' + self._salon
+        view = self._nombre + ' ' + self._salon
         return view
     
